@@ -31,7 +31,7 @@ class Game:
         self.open_img = pygame.transform.scale(self.open_img, (self.weight, self.height))
 
         self.bg = pygame.image.load('bg.jpg')
-        self.bg = pygame.transform.scale(self.bg, (500, 750))
+        self.bg = pygame.transform.scale(self.bg, (self.weight, self.height))
 
         self.screen = pygame.display.set_mode((self.weight, self.height))
         pygame.display.set_caption('Type Speed test')
